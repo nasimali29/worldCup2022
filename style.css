@@ -1,0 +1,263 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(357deg, #4caf50, #8bc34a00);
+}
+
+.topHeader {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.rightSide {
+    text-align: center;
+
+}
+
+.redBtn {
+    margin-top: 20px;
+    background: red;
+    padding: 7px;
+    border-radius: 16px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 5px 0px #d53737;
+    cursor: pointer;
+}
+
+.redBtn:active {
+    position: relative;
+    top: 3px;
+    box-shadow: 0px 3px 0px #ff3b3b;
+}
+
+.icons {
+    text-decoration: none;
+}
+
+.Btn {
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+
+.threeBtn {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    height: 175px;
+}
+
+.review {
+    display: flex;
+    margin-top: 10px;
+}
+
+.reviewText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap {
+    margin-left: 10px;
+}
+
+.transfer {
+    border: 1px solid gray;
+    width: 65px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.chatText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.rightSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    margin-left: 15px;
+    gap: 10px;
+}
+
+.onePlayer {
+    border: 2px solid #8080801f;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.mainSection {
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.goal {
+    text-align: center;
+}
+
+hr {
+    width: 900px;
+
+}
+
+.footerTitle {
+    text-align: center;
+}
+
+.fTitle {
+    margin-left: 20px;
+    color: gray;
+}
+
+.viewBtn {
+    margin-top: 20px;
+    background: red;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 60px auto;
+    cursor: pointer;
+    display: none
+}
+
+.mediaicons {
+    margin-left: 30px;
+    cursor: pointer
+}
+
+.allicon {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px
+}
+
+@media only screen and (min-width: 641px) and (max-width:768px) {
+
+    .threeBtn {
+        display: flex;
+        justify-content: unset;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        padding: 0px;
+        border-radius: 10px;
+        margin-top: 0px;
+        height: 72px;
+        margin: auto;
+    }
+
+    .viewBtn {
+        display: block;
+    }
+
+    .mainSection {
+        display: block;
+    }
+
+    .rightSection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.flag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dateandtime {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.datetitle {
+    text-align: center;
+}
+
+.time {
+    color: gray;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .topHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightSection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .mainSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr {
+        width: auto;
+    }
+
+    .footerTitle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Btn,
+    .redBtn {
+        margin-left: 30px;
+    }
+}
